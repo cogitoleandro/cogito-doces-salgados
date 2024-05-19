@@ -95,14 +95,62 @@ section#fotos img:hover {
     transform: translate(10px, -1px);
     transition: transform .1s;
 }
-div {
-    width: 75%;
-    height: 400px;
+#tabpreco {
+    width: 50%;
     margin: auto;
-    background-color: red;
+    background-color: white;
+    color: black;
+    font-family: var(--fonte2);
+    font-size: 12px;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#tabpreco > p {
+    padding-bottom: 5px;
+}
+#int {
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px;
+}
+#agradecimento {
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+#form {
+    width: 75%;
+    margin: auto;
+    background-color: white;
     margin-bottom: 5px;
+    font-family: var(--fonte2);
     
+}
+#form > fieldset {
+    margin: 2px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+#form > fieldset > input {
+    width: 90%;
+    margin-bottom: 7px;
     
+}
+#form #qtd > input {
+    width: 17%;
+    font-size: 12px;
+}
+#form #qtd {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+#imsg {
+    width: 95%;
+    height: 300px;
+    margin: 5px 0px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.856);
 }
 footer {
     background-color: red;
