@@ -73,8 +73,9 @@ article > div {
     width: 100%;
     height: 500px;
     background-image: url('../imagens/fundo-chocolate.webp');
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
+    background-size: contain;
     margin: auto;
     
 }
@@ -88,7 +89,7 @@ div > p {
 }
 section#menu {
     text-align: left;
-    padding-top: 20px;
+    padding-top: 50px;
     font-family: var(--fonte2);
     font-weight: bolder;
     font-size: 12px;
