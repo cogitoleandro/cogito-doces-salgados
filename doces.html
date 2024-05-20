@@ -42,9 +42,9 @@
                     <fieldset id="qtd">
                         <legend>Selecione seus produtos</legend>
                             <label for="iqtdtwix">TWIX Quantidade: </label>
-                            <input type="number" name="qtdtwix" id="iqtdtwix" size="2" placeholder="Informe a quantidade TWIX" style="margin-left: 4px;" oninput="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
+                            <input type="number" name="qtdtwix" id="iqtdtwix" size="2" placeholder="Informe a quantidade TWIX" style="margin-left: 4px;" required oninput="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
                             <label for="iqtdtrento">Trento Quantidade:</label>
-                            <input type="number" name="qtdtrento" id="iqtdtrento" size="2" placeholder="Informe a quantidade de trento" oninput="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
+                            <input type="number" name="qtdtrento" id="iqtdtrento" size="2" placeholder="Informe a quantidade de trento" required oninput ="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
                             <label for="ivalor">Valor: </label>
                             <output name="valor" id="ivalor">0</output>,00 reais
                         <p>
