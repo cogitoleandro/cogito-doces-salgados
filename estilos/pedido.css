@@ -72,7 +72,6 @@ main {
 }
 article {
     width: 95%;
-    height: 500px;
     margin: auto;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 5px black;
@@ -80,11 +79,6 @@ article {
 }
 article > div {
     width: 100%;
-    height: 500px;
-    background-image: url('../imagens/fundo-chocolate.webp');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain;
     margin: auto;
     
 }
@@ -93,27 +87,8 @@ div > p {
     font-size: 1.5;
     font-weight: bolder;
     text-align: left;
-    padding: 35px 0px 20px 15px;
+    padding: 5px 0px 20px 15px;
     color: black;
-}
-section#menu {
-    text-align: left;
-    padding-top: 50px;
-    font-family: var(--fonte2);
-    font-weight: bolder;
-    font-size: 12px;
-    
-}
-section#menu img {
-    width: 30px;
-    margin: 0px 0px 15px 10px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px black;
-}
-section#menu img:hover {
-    border: 2px solid black;
-    transform: translate(10px, -1px);
-    transition: transform .3s;
 }
 
 #tabpreco {
@@ -130,7 +105,7 @@ section#menu img:hover {
     box-shadow: 3px 3px 3px black;
 }
 #tabpreco > p {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 #int {
     font-weight: bolder;

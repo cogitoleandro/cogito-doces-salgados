@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Doces & CIA</h1>
+        <h1>Doces & Chocolates</h1>
         <p id="marca"><a href="https://cogitoleandro.github.io/cogito-websites" target="_blank">™Cogito</a><br>            <p><a href="https://cogitoleandro.github.io/cogito-websites" target="_blank">WebSites</a></p>
     </header>
     <nav>
@@ -17,52 +17,15 @@
     </nav>
     <main>
         <article>
-            <section id="fotos">                
-                <a href="#"><img src="imagens/choco-twix.jpg" alt=""></a>
-                <a href="#"><img src="imagens/choco-trento.jpg" alt=""></a>
-                <a href="#"><img src="imagens/choco-prestigio.jpg" alt=""></a>
-            </section>
-            <div id="tabpreco">
-                <p id="int">No momento, são estes os chocolates com os quais estou trabalhando, em breve o menu terá mais opções visando melhor atender e satisfazer o prazer do seu paladar.</p>
-                <p>Chocolate twix: R$ 2,00 reais a unidade</p>
-                <p>Chocolate trento: R$ 5,00 reais a unidade</p>
-                <p>Observação: O campo de soma dos valores está incluso + R$ 2,00 reais referentes a entrega.</p>
-                <p>Será recebido com muito respeito e apreciada toda critica, sugestão ou elogio, razão do espaço aberto para mensagens.</p>
-                <p>Desde já desejamos um excelente dia.</p>
-                <p id="agradecimento">Grato, <br>Cogito Doces</p>
-            </div>
-           <div id="form">
-               <form action="https://formsubmit.co/leandroviegasfranca@outlook.com" method="post">
-                    <fieldset>
-                        <legend>Dados Pessoais</legend>
-                            <input type="text" name="nome" id="inome" placeholder="Nome ou Apelido" size="60" required> <br>
-                            <input type="text" name="endereco" id="iendereco" placeholder="Rua, avenida" size="50" required> <br>
-                            <input type="text" name="endnum" id="iendnum" placeholder="Nº" size="5" required> <br>
-                            <input type="tel" name="tel" id="itel" placeholder="Nº Telefone" size="15" required>
-                    </fieldset>
-                    <fieldset id="qtd">
-                        <legend>Selecione seus produtos</legend>
-                            <label for="iqtdtwix">TWIX Quantidade: </label>
-                            <input type="number" name="qtdtwix" id="iqtdtwix" size="2" placeholder="Informe a quantidade TWIX" style="margin-left: 4px;" required oninput="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
-                            <label for="iqtdtrento">Trento Quantidade:</label>
-                            <input type="number" name="qtdtrento" id="iqtdtrento" size="2" placeholder="Informe a quantidade de trento" required oninput ="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
-                            <label for="ivalor">Valor: </label>
-                            <output name="valor" id="ivalor">0</output>,00 reais
-                        <p>
-                            <label for="imsg" style="margin-top: 10px;">Sugestões, critícas e elogios: </label> <br>
-                            <textarea name="msg" id="imsg"></textarea>
-                        </p>
-                        <p>
-                            <input type="submit" value="Enviar" id="enviar">
-                            <input type="reset" value="Limpar" id="limpar">
-                            <input type="hidden" name="_subject" value="Novo Contanto">
-                            <input type="text" name="_honey" style="display:none;">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="https://cogitoleandro.github.io/cogito-doces-salgados/thank-you.html">
-                        </p>
-                    </fieldset>
-                </form>
-           </div>
+                <div>
+                    <p>Acesse o menu abaixo e faça seus pedidos</p>
+                    <section id="menu">                
+                        <p><a href="chocolates.html"><img src="imagens/logo-doces.jpeg" alt=""></a>Menu de chocolates</p><br>
+                        <p><a href="#"><img src="imagens/logo-lanche.jpg" alt=""></a>Em breve estaremos com novos doces</p>
+                    </section>
+                </div>
+        
+                           
         </article>
     </main>
     <footer>
