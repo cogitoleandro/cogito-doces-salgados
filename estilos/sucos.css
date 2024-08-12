@@ -76,10 +76,13 @@ article {
     border-radius: 10px 10px 10px 10px;
     box-shadow: 5px 5px 5px black;
     background-color: white;
-    text-align: center;
+    text-align: left;
     font-family: var(--fonte2);
     font-weight: bolder;
       
+}
+article > div > p{
+    padding-top: 20px;
 }
 
 section#menu {
