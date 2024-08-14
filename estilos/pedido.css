@@ -90,6 +90,25 @@ div > p {
     padding: 5px 0px 20px 15px;
     color: black;
 }
+table {
+    margin: 26px 0px 10px 0px;
+    font-weight: bolder;
+}
+table > caption{
+    font-weight: bolder;
+    text-align: left;
+}
+td, th {
+    border: 0.1px solid black;
+}
+thead > tr > th {
+    background-color: red;
+    color: whitesmoke;
+}
+tbody > tr:nth-child(2n) {
+    background-color: red;
+    color: whitesmoke;    
+}
 
 #tabpreco {
     width: 50%;
@@ -109,8 +128,7 @@ div > p {
 }
 #int {
     font-weight: bolder;
-    font-size: 15px;
-    margin: 10px;
+    font-size: 12px;
 }
 #agradecimento {
     margin-top: 20px;
