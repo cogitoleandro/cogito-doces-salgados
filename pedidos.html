@@ -87,13 +87,10 @@
                             <input type="tel" name="tel" id="itel" placeholder="Nº Telefone" size="15" required>
                     </fieldset>
                     <fieldset id="qtd">
-                        <legend>Selecione seus produtos</legend>
-                            <label for="iqtdtwix">TWIX Quantidade: </label>
-                            <input type="number" name="qtdtwix" id="iqtdtwix" size="2" placeholder="Informe a quantidade TWIX" style="margin-left: 4px;" required oninput="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
-                            <label for="iqtdtrento">Trento Quantidade:</label>
-                            <input type="number" name="qtdtrento" id="iqtdtrento" size="2" placeholder="Informe a quantidade de trento" required oninput ="ivalor.innerHTML = Number(iqtdtwix.value * 2) + Number(iqtdtrento.value * 5)"> <br>
-                            <label for="ivalor">Valor: </label>
-                            <output name="valor" id="ivalor">0</output>,00 reais
+                        <p>
+                            <label for="pedido" style="margin-top: 10px;">Faça seu pedido em 15 minutos chegará em seu endereço: </label> <br>
+                            <textarea name="pedido" id="iped"></textarea>
+                        </p>
                         <p>
                             <label for="imsg" style="margin-top: 10px;">Sugestões, critícas e elogios: </label> <br>
                             <textarea name="msg" id="imsg"></textarea>
